@@ -1,63 +1,63 @@
-import { themes as prismThemes } from "prism-react-renderer";
-import type { Config } from "@docusaurus/types";
-import type * as Preset from "@docusaurus/preset-classic";
+import type * as Preset from '@docusaurus/preset-classic';
+import type { Config } from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "Fission",
+  title: 'Fission',
   tagline:
-    "Fission: Web3-powered, decentralized AI data ecosystem. Transparent ownership, token-based incentives, & AI-driven data labeling + monetization",
-  favicon: "img/favicon.svg",
+    'Fission: Web3-powered, decentralized AI data ecosystem. Transparent ownership, token-based incentives, & AI-driven data labeling + monetization',
+  favicon: 'img/favicon.svg',
 
   // Set the production url of your site here
-  url: "http://google",
+  url: 'http://google',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "IterateFast-Labs", // Usually your GitHub org/user name.
-  projectName: "fission", // Usually your repo name.
+  organizationName: 'IterateFast-Labs', // Usually your GitHub org/user name.
+  projectName: 'fission', // Usually your repo name.
 
-  onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
+    defaultLocale: 'en',
+    locales: ['en'],
   },
 
   presets: [
     [
-      "classic",
+      'classic',
       {
         docs: {
-          sidebarPath: "./sidebars.ts",
+          sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/IterateFast-Labs/fission-docs",
+          editUrl: 'https://github.com/IterateFast-Labs/fission-docs',
         },
         blog: {
           showReadingTime: true,
           feedOptions: {
-            type: ["rss", "atom"],
+            type: ['rss', 'atom'],
             xslt: true,
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/IterateFast-Labs/fission-docs",
+          editUrl: 'https://github.com/IterateFast-Labs/fission-docs',
           // Useful options to enforce blogging best practices
-          onInlineTags: "warn",
-          onInlineAuthors: "warn",
-          onUntruncatedBlogPosts: "warn",
+          onInlineTags: 'warn',
+          onInlineAuthors: 'warn',
+          onUntruncatedBlogPosts: 'warn',
         },
         theme: {
-          customCss: "./src/css/custom.css",
+          customCss: './src/css/custom.css',
         },
       } satisfies Preset.Options,
     ],
@@ -65,71 +65,71 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: "image/social-card.jpg",
+    image: 'image/social-card.jpg',
     navbar: {
-      title: "Fission",
+      title: 'Fission',
       logo: {
-        alt: "Fission Logo",
-        src: "image/logo.svg",
+        alt: 'Fission Logo',
+        src: 'image/logo.svg',
       },
       items: [
         {
-          type: "docSidebar",
-          sidebarId: "tutorialSidebar",
-          position: "left",
-          label: "Tutorial",
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
+          position: 'left',
+          label: 'Tutorial',
         },
-        { to: "/blog", label: "Blog", position: "left" },
+        { to: '/blog', label: 'Blog', position: 'left' },
         {
-          href: "https://github.com/facebook/docusaurus",
-          label: "GitHub",
-          position: "right",
+          href: 'https://github.com/facebook/docusaurus',
+          label: 'GitHub',
+          position: 'right',
         },
       ],
     },
     footer: {
-      style: "dark",
+      style: 'dark',
       links: [
         {
-          title: "Docs",
+          title: 'Docs',
           items: [
             {
-              label: "Tutorial",
-              to: "/docs/intro",
+              label: 'Tutorial',
+              to: '/docs/intro',
             },
           ],
         },
         {
-          title: "Community",
+          title: 'Community',
           items: [
             {
-              label: "Hub",
-              href: "https://hub.xyz/fission",
+              label: 'Hub',
+              href: 'https://hub.xyz/fission',
             },
             {
-              label: "X",
-              href: "https://x.com/fission_web3",
+              label: 'X',
+              href: 'https://x.com/fission_web3',
             },
             {
-              label: "Discord",
-              href: "https://discord.com/invite/XFWtmDDf8s",
+              label: 'Discord',
+              href: 'https://discord.com/invite/XFWtmDDf8s',
             },
             {
-              label: "Telegram",
-              href: "https://t.me/fission_official",
+              label: 'Telegram',
+              href: 'https://t.me/fission_official',
             },
           ],
         },
         {
-          title: "More",
+          title: 'More',
           items: [
             {
-              label: "Blog",
-              to: "/blog",
+              label: 'Blog',
+              to: '/blog',
             },
             {
-              label: "GitHub",
-              href: "https://github.com/IterateFast-Labs",
+              label: 'GitHub',
+              href: 'https://github.com/IterateFast-Labs',
             },
           ],
         },
