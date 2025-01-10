@@ -18,12 +18,49 @@ const sidebars: SidebarsConfig = {
 
   // But you can create a sidebar manually
 
-  tutorialSidebar: [
-    'intro',
+  usersSidebar: [
     {
       type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
+      label: 'Our Insight',
+      collapsed: true,
+      items: [
+        'users/our-insight/stop-calling-agent',
+        'users/our-insight/why-centralized-data',
+        'users/our-insight/retrieval-augmented-generation',
+        'users/our-insight/how-to-find-good-agent',
+        'users/our-insight/challenges-and-directions',
+        'users/our-insight/hybrid-search',
+        'users/our-insight/raft-rag',
+      ],
+    },
+    {
+      type: 'doc',
+      label: 'Official Link',
+      id: 'users/official-link/1-official-link',
+    },
+  ],
+  fissionResearchSidebar: [
+    {
+      type: 'category',
+      label: 'RAG + AI Research Paper List',
+      collapsed: true,
+      items: [
+        'fission-research/rag-ai/concept-of-rag',
+        'fission-research/rag-ai/framework-analysis',
+        'fission-research/rag-ai/biased-data',
+        'fission-research/rag-ai/hybrid-approach',
+        'fission-research/rag-ai/true-agent',
+        'fission-research/rag-ai/rag-based-finetunning',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'RP LLM Research Paper',
+      collapsed: true,
+      items: [
+        'fission-research/rp-llm/llm-prompting-body',
+        'fission-research/rp-llm/relatable-persona-prompting',
+      ],
     },
   ],
 };

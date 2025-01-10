@@ -77,11 +77,16 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'usersSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Users',
         },
-        { to: '/blog', label: 'Blog', position: 'left' },
+        {
+          type: 'docSidebar',
+          sidebarId: 'fissionResearchSidebar',
+          position: 'left',
+          label: 'Fission Research',
+        },
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
