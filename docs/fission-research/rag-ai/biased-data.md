@@ -64,9 +64,6 @@ Reddit discussions and interviews with experts further highlight the underlying 
     Peters et al. (2024) explore how LLMs infer psychological traits of social media users and find that these models are prone to stereotyping based on demographic and geographic data. The research suggests that biases in the training dataset are reflected in the model’s outputs, potentially leading to hallucinations or outputs that reinforce stereotypes. This highlights the importance of using diverse and unbiased datasets to mitigate these issues ([source](https://academic.oup.com/pnasnexus/article/3/6/pgae231/7692212)).
     
 
-1. **Perceptual Inference and Top-Down Biases**
+2. **Perceptual Inference and Top-Down Biases**
     
     Cassidy et al. (2018) examine perceptual inference mechanisms linked to hallucinations, proposing that top-down cognitive biases can influence the prevalence of hallucinations in controlled group settings. While this study is rooted in medical neuroscience, its implications for AI training are significant: controlled datasets that lack diversity may inadvertently reinforce existing biases, leading to distorted outputs. This reinforces the need for broader datasets and labeling practices to avoid such pitfalls ([source](https://www.sciencedirect.com/science/article/pii/S0960982218300046?via%3Dihub)). Recent advancements in understanding generative AI through the lens of human neuroscience further underscore the relevance of this study.
-    
-
----
