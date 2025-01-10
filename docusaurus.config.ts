@@ -16,8 +16,8 @@ const config: Config = {
   url: 'https://iteratefast-labs.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  // baseUrl: '/fission',
-  baseUrl: '',
+  baseUrl: '/fission',
+  // baseUrl: '',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -69,6 +69,10 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'image/social-card.jpg',
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: true,
+    },
     navbar: {
       title: 'Fission',
       logo: {
