@@ -89,7 +89,7 @@ const config: Config = {
           label: 'Fission Research',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/IterateFast-Labs',
           label: 'GitHub',
           position: 'right',
         },
