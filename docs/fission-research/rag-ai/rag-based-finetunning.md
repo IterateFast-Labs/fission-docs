@@ -84,10 +84,8 @@ Using RAFT, language models can seamlessly interface with decentralized storage 
 
 ### References
 
-1. **Fine-Tuning Large Vision-Language Models as Decision-Making Agents via Reinforcement Learning**Authors: [Not specified]Year: 2024URL: [https://arxiv.org/abs/2405.10292](https://arxiv.org/abs/2405.10292)
-2. **Relation Extraction with Fine-Tuned Large Language Models in Retrieval Augmented Frameworks**Authors: [Not specified]Year: 2024URL: [https://arxiv.org/abs/2406.14745](https://arxiv.org/abs/2406.14745)
-3. **Improving Large Language Models via Fine-grained Reinforcement Learning with Minimum Editing Constraint**Authors: [Not specified]Year: 2024URL: [https://arxiv.org/abs/2401.06081](https://arxiv.org/abs/2401.06081)
-4. **OG-RAG: Ontology-Grounded Retrieval-Augmented Generation For Large Language Models**Authors: [Not specified]Year: 2024URL: [https://arxiv.org/abs/2412.15235](https://arxiv.org/abs/2412.15235)
-5. **Teaching Large Language Models to Reason with Reinforcement Learning**Authors: [Not specified]Year: 2024URL: [https://arxiv.org/abs/2403.04642](https://arxiv.org/abs/2403.04642)
-
----
+1. "Fine-Tuning Large Vision-Language Models as Decision-Making Agents via Reinforcement Learning." Retrieved from [arXiv Link](https://arxiv.org/abs/2405.10292)
+2. "Relation Extraction with Fine-Tuned Large Language Models in Retrieval Augmented Frameworks." Retrieved from [arXiv Link](https://arxiv.org/abs/2406.14745)
+3. "Improving Large Language Models via Fine-grained Reinforcement Learning with Minimum Editing Constraint." Retrieved from [arXiv Link](https://arxiv.org/abs/2401.06081)
+4. "OG-RAG: Ontology-Grounded Retrieval-Augmented Generation For Large Language Models." Retrieved from [arXiv Link](https://arxiv.org/abs/2412.15235)
+5. "Teaching Large Language Models to Reason with Reinforcement Learning." Retrieved from [arXiv Link](https://arxiv.org/abs/2403.04642)

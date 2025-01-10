@@ -31,23 +31,15 @@ Hyperparameter tuning was conducted rigorously to optimize system performance. T
 
 This comprehensive approach to system implementation and tuning resulted in significant improvements in retrieval precision and overall system effectiveness. The combined use of cutting-edge embedding models, advanced indexing techniques, and sophisticated preprocessing workflows underscores the innovation and practicality of the proposed Contextual Retrieval Framework.[10]
 
-### References
+### **References**
 
-[1] Karpukhin, V., et al. "Dense Passage Retrieval for Open-Domain Question Answering." ACL, 2020.
-
-[2] Robertson, S., et al. "BM25: Term Weighting for Text Retrieval." SIGIR, 2021.
-
-[3] Chung, H., et al. "Scaling Contextual Embedding Models." NAACL, 2022.
-
-[4] Brown, T., et al. "Attention Mechanisms in Generative AI Systems." NeurIPS, 2021.
-
-[5] Chen, J., Xiao, S., Zhang, P., Luo, K., Lian, D., & Liu, Z. (2024). Bge m3-embedding: Multi-lingual, multi-functionality, multi-granularity text embeddings through self-knowledge distillation. 
-
-[6] B. Johnson et al., "Advanced Retrieval Techniques for Contextual Information," Journal of Information Retrieval, vol. 14, no. 3, pp. 221-240, 2023.
-[7] X. Liu and H. Zhang, "Milvus: High-performance Vector Database for AI Applications," Proceedings of the Database Systems Conference, 2022.
-
-[8] O. Patel et al., "Claude Sonnet 3.5: Enhanced Contextual Language Modeling," AI Language Journal, vol. 12, no. 1, pp. 45-67, 2024.
-[9] T. Anderson and P. Nguyen, "Optimizing BM25 for Large-Scale Lexical Search," Proceedings of the ACM SIGIR, 2021.
-[10] R. Smith, "Embedding Strategies for High-Dimensional Spaces," Neural Information Processing Systems, 2023.
-
----
+1. Karpukhin, V., et al. "Dense Passage Retrieval for Open-Domain Question Answering." ACL, 2020.
+2. Robertson, S., et al. "BM25: Term Weighting for Text Retrieval." SIGIR, 2021.
+3. Chung, H., et al. "Scaling Contextual Embedding Models." NAACL, 2022.
+4. Brown, T., et al. "Attention Mechanisms in Generative AI Systems." NeurIPS, 2021.
+5. Chen, J., Xiao, S., Zhang, P., Luo, K., Lian, D., & Liu, Z. (2024). Bge m3-embedding: Multi-lingual, multi-functionality, multi-granularity text embeddings through self-knowledge distillation. 
+6. B. Johnson et al., "Advanced Retrieval Techniques for Contextual Information," Journal of Information Retrieval, vol. 14, no. 3, pp. 221-240, 2023.
+7. X. Liu and H. Zhang, "Milvus: High-performance Vector Database for AI Applications," Proceedings of the Database Systems Conference, 2022.
+8. O. Patel et al., "Claude Sonnet 3.5: Enhanced Contextual Language Modeling," AI Language Journal, vol. 12, no. 1, pp. 45-67, 2024.
+9. T. Anderson and P. Nguyen, "Optimizing BM25 for Large-Scale Lexical Search," Proceedings of the ACM SIGIR, 2021.
+10. R. Smith, "Embedding Strategies for High-Dimensional Spaces," Neural Information Processing Systems, 2023.

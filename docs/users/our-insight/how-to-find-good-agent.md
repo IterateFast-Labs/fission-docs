@@ -114,7 +114,7 @@ Our ongoing efforts aim to refine these frameworks, ensuring they adapt to emerg
 
 ### References
 
-1. **Khayrallah, H. et al. (2020)**: "Detecting Hallucinated Content in Neural Machine Translation." Link
+1. **Khayrallah, H. et al. (2020)**: "Detecting Hallucinated Content in Neural Machine Translation."
 2. **Lewis, P. et al. (2020)**: "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks." [Link](https://arxiv.org/abs/2005.11401)
 3. **Izacard, G. & Grave, E. (2021)**: "Leveraging Passage Retrieval with Generative Models." [Link](https://arxiv.org/abs/2112.09332)
 4. **Liu, J. et al. (2021)**: "Probing Error Propagation in Retrieval-Augmented Models." [Link](https://arxiv.org/abs/2110.08118)

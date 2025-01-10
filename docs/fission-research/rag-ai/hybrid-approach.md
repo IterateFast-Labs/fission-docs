@@ -58,8 +58,8 @@ Fission's hybrid labeling system represents the future of ethical, scalable data
 
 ### **References**
 
-[1] Time. (2023). "OpenAI's Kenyan Workers and the Ethics of Data Annotation." Retrieved from [time.com](https://time.com/6247678/openai-chatgpt-kenya-workers/)
-[2] MDPI. (2023). "Challenges in Multi-Modal Dataset Labeling." *Journal of Geoinformation*, 13(5), 153. Retrieved from [mdpi.com](https://www.mdpi.com/2220-9964/13/5/153)
-[3] NVIDIA Developer Blog. (2023). "Scale and Curate High-Quality Datasets for LLM Training with NeMo Curator." Retrieved from [developer.nvidia.com](https://developer.nvidia.com/blog/scale-and-curate-high-quality-datasets-for-llm-training-with-nemo-curator/)
-[4] Lewis, P., Perez, E., Piktus, A., et al. (2020). "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks." *arXiv preprint arXiv:2005.11401*.
-[5] Anthropic. (2023). "Alignment Faking in Large Language Models." Retrieved from [assets.anthropic.com](https://assets.anthropic.com/m/983c85a201a962f/original/Alignment-Faking-in-Large-Language-Models-full-paper.pdf).
+1. Time. (2023). "OpenAI's Kenyan Workers and the Ethics of Data Annotation." Retrieved from [time.com](https://time.com/6247678/openai-chatgpt-kenya-workers/)
+2. MDPI. (2023). "Challenges in Multi-Modal Dataset Labeling." *Journal of Geoinformation*, 13(5), 153. Retrieved from [mdpi.com](https://www.mdpi.com/2220-9964/13/5/153)
+3. NVIDIA Developer Blog. (2023). "Scale and Curate High-Quality Datasets for LLM Training with NeMo Curator." Retrieved from [developer.nvidia.com](https://developer.nvidia.com/blog/scale-and-curate-high-quality-datasets-for-llm-training-with-nemo-curator/)
+4. Lewis, P., Perez, E., Piktus, A., et al. (2020). "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks." *arXiv preprint arXiv:2005.11401*.
+5. Anthropic. (2023). "Alignment Faking in Large Language Models." Retrieved from [assets.anthropic.com](https://assets.anthropic.com/m/983c85a201a962f/original/Alignment-Faking-in-Large-Language-Models-full-paper.pdf).

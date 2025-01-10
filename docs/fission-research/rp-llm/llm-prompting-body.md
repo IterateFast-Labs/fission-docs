@@ -51,5 +51,3 @@ The advent of hyperparameter-aware generation represents a significant step forw
 3. Vaswani, A. et al., "Attention is All You Need," NeurIPS (2017).
 4. Raffel, C. et al., "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer," JMLR (2020).
 5. Radford, A. et al., "Improving Language Understanding by Generative Pre-training," OpenAI (2018).
-
----

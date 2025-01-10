@@ -26,42 +26,25 @@ Building upon Anthropic's recent groundbreaking work in contextual retrieval, ou
 
 The main concept of RAG systems lies in the principles of information retrieval (IR), particularly neural ranking frameworks developed in recent years [13]. Advances in natural language processing (NLP), such as pre-trained language models like BERT and RoBERTa, have redefined how text is understood and represented (Devlin et al., 2020). Deep learning theories, including self-supervised learning and contrastive learning, underpin the training of both retrievers and generators [14]. Transformers and their attention mechanisms play a pivotal role in RAG systems. The self-attention mechanism enables models to capture relationships between tokens across long sequences, essential for both retrieval and generation tasks [15]. Techniques such as cross-attention in models like RAG-FiD enhance the generator’s ability to integrate multiple retrieved contexts. The scalability and flexibility of transformer architectures have made them the cornerstone of modern RAG systems, driving their effectiveness across diverse applications (Xue et al., 2023).
 
-### References
+### **References**
 
-[1] Karpukhin, V., Ogée, C., et al. "Dense Passage Retrieval for Open-Domain Question Answering." ACL, 2020.
+1. Karpukhin, V., Ogée, C., et al. "Dense Passage Retrieval for Open-Domain Question Answering." ACL, 2020.
+2. Lin, J., Ma, X., et al. "A Dense-Sparse Hybrid Retrieval Approach." SIGIR, 2021.
+3. Raffel, C., Shazeer, N., et al. "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer." JMLR, 2020.
+4. Santhanam, K., Chen, S., et al. "ColBERTv2: Scalable and Efficient Retrieval." NAACL, 2022.
+5. Chung, H.W., Hou, L., et al. "Scaling Instruction-Finetuned Language Models." arXiv, 2023.
+6. Izacard, G., Grave, E. "RAG-FiD: Retrieval-Augmented Generation with Fusion-in-Decoder." NeurIPS, 2021.
+7. Zhao, Z., et al. "Understanding Retrieval Bottlenecks in Dense Models." EMNLP, 2021.
+8. Gao, L., Callan, J. "Unifying Dense and Sparse Retrieval Models." SIGIR, 2022.
+9. Wang, A., Wei, J., et al. "Challenges in RAG Accuracy and Hallucination." ICLR, 2022.
+10. Lin, Z., Zhao, X. "Improving Retrieval with Query Reformulation Using T5." ACL, 2021.
+11. Reimers, N., Gurevych, I. "Sentence Transformers for Efficient Retrieval." EMNLP, 2020.
+12. Liu, X., et al. "Dynamic Memory-Augmented Neural Networks for Retrieval." NAACL, 2023.
+13. Manning, C., Schütze, H., et al. "Deep Learning for Neural Information Retrieval." IRJ, 2021.
+14. Devlin, J., Chang, M.W., et al. "BERT: Pre-training of Deep Bidirectional Transformers." NAACL, 2020.
+15. Xue, J., et al. "Advances in Attention Mechanisms for RAG Systems." AAAI, 2023.
 
-[2] Lin, J., Ma, X., et al. "A Dense-Sparse Hybrid Retrieval Approach." SIGIR, 2021.
+### **Figures**
 
-[3] Raffel, C., Shazeer, N., et al. "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer." JMLR, 2020.
-
-[4] Santhanam, K., Chen, S., et al. "ColBERTv2: Scalable and Efficient Retrieval." NAACL, 2022.
-
-[5] Chung, H.W., Hou, L., et al. "Scaling Instruction-Finetuned Language Models." arXiv, 2023.
-
-[6] Izacard, G., Grave, E. "RAG-FiD: Retrieval-Augmented Generation with Fusion-in-Decoder." NeurIPS, 2021.
-
-[7] Zhao, Z., et al. "Understanding Retrieval Bottlenecks in Dense Models." EMNLP, 2021.
-
-[8] Gao, L., Callan, J. "Unifying Dense and Sparse Retrieval Models." SIGIR, 2022.
-
-[9] Wang, A., Wei, J., et al. "Challenges in RAG Accuracy and Hallucination." ICLR, 2022.
-
-[10] Lin, Z., Zhao, X. "Improving Retrieval with Query Reformulation Using T5." ACL, 2021.
-
-[11] Reimers, N., Gurevych, I. "Sentence Transformers for Efficient Retrieval." EMNLP, 2020.
-
-[12] Liu, X., et al. "Dynamic Memory-Augmented Neural Networks for Retrieval." NAACL, 2023.
-
-[13] Manning, C., Schütze, H., et al. "Deep Learning for Neural Information Retrieval." IRJ, 2021.
-
-[14] Devlin, J., Chang, M.W., et al. "BERT: Pre-training of Deep Bidirectional Transformers." NAACL, 2020.
-
-[15] Xue, J., et al. "Advances in Attention Mechanisms for RAG Systems." AAAI, 2023.
-
-### Figures
-
-[1] Anthropic. "Introducing Contextual Retrieval." Anthropic Blog, 2024.
-
-[2] [Advanced RAG 10: Corrective Retrieval Augmented Generation (CRAG) | by Florian June | AI Advance](https://ai.gopubby.com/advanced-rag-10-corrective-retrieval-augmented-generation-crag-3f5a140796f9)
-
----
+1. Anthropic. "Introducing Contextual Retrieval." Anthropic Blog, 2024.
+2. [Advanced RAG 10: Corrective Retrieval Augmented Generation (CRAG) | by Florian June | AI Advance](https://ai.gopubby.com/advanced-rag-10-corrective-retrieval-augmented-generation-crag-3f5a140796f9)
