@@ -80,6 +80,12 @@ const config: Config = {
       },
       items: [
         {
+          type: 'doc',
+          docId: 'light-paper',
+          position: 'left',
+          label: 'Light Paper',
+        },
+        {
           type: 'docSidebar',
           sidebarId: 'usersSidebar',
           position: 'left',
