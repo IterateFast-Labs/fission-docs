@@ -83,7 +83,7 @@ const config: Config = {
           type: 'doc',
           docId: 'light-paper',
           position: 'left',
-          label: 'Light Paper',
+          label: 'Litepaper',
         },
         {
           type: 'docSidebar',
@@ -96,6 +96,12 @@ const config: Config = {
           sidebarId: 'fissionResearchSidebar',
           position: 'left',
           label: 'Fission Research',
+        },
+        {
+          type: 'doc',
+          docId: 'tay-intro',
+          position: 'left',
+          label: 'Introducing Tay',
         },
         {
           href: 'https://github.com/IterateFast-Labs',

@@ -8,17 +8,16 @@ export default function WelcomSection() {
         <h2 className="text-4xl text-black font-extrabold mb-14">
           Welcome to Fission
         </h2>
+        
         <p className="leading-relaxed text-balance font-medium">
-          Fission empowers decentralized AI training with DAO-driven governance,
-          tokenized incentives, and a unique Borrow + Bonding Curve model.{' '}
+          Fission is pioneering the future of AI in the Web3 era. 
+          By combining the power of decentralized technologies with cutting-edge AI, 
+          we are creating an inclusive, transparent, and community-driven ecosystem 
+          where AI models evolve and grow through collaborative efforts.{' '}
           <br />
           <br />
-          Our miniapps on Telegram and World offer seamless participation for
-          global contributors, ensuring high-quality, unbiased data for AI
-          models.
-        </p>
-        <p className="font-medium text-red-500 bg-red-600/20 px-4 py-2 rounded-xl w-fit border-solid border-[2px] border-red-500">
-          Beware of scams. Fission doesn't have any tokens yet!
+          Join us in revolutionizing the way AI is built, trained, and governed.<br />
+          Welcome to a new era of AI – decentralized, scalable, and powered by the people.
         </p>
       </div>
       <img

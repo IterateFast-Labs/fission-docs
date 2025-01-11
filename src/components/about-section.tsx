@@ -36,37 +36,14 @@ export default function AboutSection() {
       <h2 className="text-4xl text-black font-extrabold text-center mb-10 md:mb-12 lg:mb-20">
         About Fission
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-1 gap-8">
         <article className="p-4 rounded-xl">
-          <h3 className="text-2xl font-bold mb-8">
-            How exactly did you integrate Solana?
-          </h3>
           <p className="font-medium leading-relaxed">
-            We integrated Solana by adopting Solend's Solana Lending Program to
-            enable decentralized borrowing and lending. Jito's JitoSOL is
-            utilized as the primary asset in our Fee Pool, enhancing liquidity.
-            We also help to connect Solana with Telegram and World miniapps,
-            enabling seamless interactions for users to participate in AI
-            training and governance, ensuring a smooth and efficient experience
-            for users within the Solana ecosystem, leveraging Solana's speed and
-            scalability.
-          </p>
-        </article>
-        <article className="p-4 rounded-xl">
-          <h3 className="text-2xl font-bold mb-8">
-            How exactly did you integrate AI?
-          </h3>
-          <p className="font-medium leading-relaxed">
-            We integrated AI through a community-driven approach to data
-            labeling and validation, enabling continuous AI training. Our
-            platform utilizes real-time feedback loops to refine and improve
-            models dynamically. By leveraging AI frameworks like OpenAI's GPT
-            for natural language processing and TensorFlow for machine learning,
-            we ensure that our agents exhibit intelligent and autonomous
-            behavior. This integration allows our agents to adapt and evolve
-            based on user interactions, providing more accurate and relevant
-            responses over time, while maintaining the flexibility to
-            incorporate community contributions for enhanced model performance.
+            Fission is a decentralized platform that transforms the AI landscape by integrating blockchain and Web3 frameworks to create a transparent, fair, and inclusive approach to AI development. With a focus on community-driven data labeling, decentralized governance, and tokenized incentives, Fission empowers contributors from around the world to participate in shaping AI models that benefit all.
+            <br/>
+            <br/>
+            At Fission, we leverage blockchain infrastructure to democratize AI training and governance, ensuring that everyone has a stake in the future of AI. Our ecosystem is designed for scalability, enabling a wide range of applications—from AI-powered meme coins to decentralized AI agents. 
+            As we build momentum and grow, our long-term vision is to redefine how AI models are created, managed, and monetized, fostering a decentralized and equitable AI economy.
           </p>
         </article>
         <article className="p-4 min-h-72 md:col-span-2">

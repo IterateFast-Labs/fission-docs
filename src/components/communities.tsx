@@ -8,9 +8,6 @@ export default function Communities() {
         <h2 className="text-4xl text-black font-extrabold text-center mb-4">
           Fission Communities
         </h2>
-        <p className="font-medium text-red-500 bg-red-600/20 px-3 py-1 rounded-xl w-fit border-solid border-[2px] border-red-500">
-          Beware of scams, Always check the official links!
-        </p>
       </header>
       <div className="flex flex-wrap gap-10 items-center justify-center py-20">
         <a
