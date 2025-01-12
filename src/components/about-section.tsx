@@ -37,16 +37,26 @@ export default function AboutSection() {
         About Fission
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-1 gap-8">
-        <article className="p-4 rounded-xl">
+        <div className="p-4 rounded-xl">
           <p className="font-medium leading-relaxed">
-            Fission is a decentralized platform that transforms the AI landscape by integrating blockchain and Web3 frameworks to create a transparent, fair, and inclusive approach to AI development. With a focus on community-driven data labeling, decentralized governance, and tokenized incentives, Fission empowers contributors from around the world to participate in shaping AI models that benefit all.
-            <br/>
-            <br/>
-            At Fission, we leverage blockchain infrastructure to democratize AI training and governance, ensuring that everyone has a stake in the future of AI. Our ecosystem is designed for scalability, enabling a wide range of applications—from AI-powered meme coins to decentralized AI agents. 
-            As we build momentum and grow, our long-term vision is to redefine how AI models are created, managed, and monetized, fostering a decentralized and equitable AI economy.
+            Fission is a decentralized platform that transforms the AI landscape
+            by integrating blockchain and Web3 frameworks to create a
+            transparent, fair, and inclusive approach to AI development. With a
+            focus on community-driven data labeling, decentralized governance,
+            and tokenized incentives, Fission empowers contributors from around
+            the world to participate in shaping AI models that benefit all.
+            <br />
+            <br />
+            At Fission, we leverage blockchain infrastructure to democratize AI
+            training and governance, ensuring that everyone has a stake in the
+            future of AI. Our ecosystem is designed for scalability, enabling a
+            wide range of applications—from AI-powered meme coins to
+            decentralized AI agents. As we build momentum and grow, our
+            long-term vision is to redefine how AI models are created, managed,
+            and monetized, fostering a decentralized and equitable AI economy.
           </p>
-        </article>
-        <article className="p-4 min-h-72 md:col-span-2">
+        </div>
+        <div className="p-4 min-h-72 md:col-span-2">
           <h3 className="text-2xl font-bold mb-8">Our Insights</h3>
           <ul className="list-none pl-0 grid md:grid-cols-3 lg:grid-cols-4 gap-4">
             {keyComponentsDocs.map((doc) => (
@@ -63,7 +73,36 @@ export default function AboutSection() {
               </li>
             ))}
           </ul>
-        </article>
+        </div>
+
+        <div className="flex flex-wrap md:flex-nowrap items-center gap-10 p-4">
+          <div className="order-2 space-y-4">
+            <div className="flex flex-col gap-2">
+              <h3 className="text-4xl font-extrabold mb-0 pb-0">
+                TAY AI Agent:
+              </h3>
+              <p className="text-2xl font-bold text-pretty">
+                Redefining Social Engagement with Decentralized Intelligence
+              </p>
+            </div>
+            <div>
+              <a
+                href="/docs/tay-intro"
+                className="px-6 py-4 bg-black hover:bg-white text-white hover:text-black border-solid border-[#cbcbcb] rounded-xl font-bold"
+              >
+                Learn more
+              </a>
+            </div>
+          </div>
+          <div className="overflow-hidden rounded-xl aspect-square w-60 order-1">
+            <img
+              src="/image/tay.jpg"
+              width={240}
+              height={240}
+              className="object-cover w-full h-full"
+            />
+          </div>
+        </div>
       </div>
     </div>
   );
