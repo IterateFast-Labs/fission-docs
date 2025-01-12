@@ -1,4 +1,4 @@
-# Light Paper
+# Litepaper
 
 ## Executive Summary
 

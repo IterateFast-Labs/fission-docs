@@ -81,7 +81,7 @@ const config: Config = {
       items: [
         {
           type: 'doc',
-          docId: 'light-paper',
+          docId: 'litepaper',
           position: 'left',
           label: 'Litepaper',
         },
