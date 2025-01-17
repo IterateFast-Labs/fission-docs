@@ -165,7 +165,16 @@ const config: Config = {
     },
   } satisfies Preset.ThemeConfig,
 
-  plugins: [tailwindPlugin],
+  plugins: [
+    tailwindPlugin,
+    [
+      '@docusaurus/plugin-google-gtag',
+      {
+        trackingID: 'G-NSZNR1DBQX',
+        anonymizeIP: true,
+      },
+    ],
+  ],
 };
 
 export default config;
