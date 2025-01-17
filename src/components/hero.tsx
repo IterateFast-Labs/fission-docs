@@ -20,6 +20,26 @@ export function Hero() {
           <p className="text-xl font-medium text-center align-middle text-white">
             Web3-powered, decentralized AI data ecosystem.
           </p>
+          <div className="w-fit mx-auto">
+            <a
+              className="flex items-center rounded-xl text-white hover:text-white bg-[#c0426a]"
+              href="#tay"
+            >
+              <img
+                src="/image/tay.jpg"
+                alt="TAY"
+                className="w-20 h-20 rounded-tl-lg rounded-bl-lg overflow-hidden"
+              />
+              <span className="font-bold text-lg px-8 h-20 flex justify-center items-center relative overflow-hidden rounded-lg">
+                <span className="relative z-10">Learn more about TAY</span>
+                <span className="absolute w-20 h-6 bg-gradient-to-r from-[#c0426a] to-[#0ABEEF]/80 z-0 -right-1 -top-1"></span>
+                <span className="absolute w-20 h-6 bg-gradient-to-r from-[#c0426a] to-[#ba6bfb]/90 z-0 -right-2 top-2"></span>
+                <span className="absolute w-20 h-6 bg-gradient-to-r from-[#c0426a] to-[#6bfbed]/100 z-0 -right-4 top-8"></span>
+                <span className="absolute w-20 h-6 bg-gradient-to-r from-[#c0426a]/20 to-[#36ff65]/90 z-0 -right-1 top-16"></span>
+                <span className="absolute w-20 h-6 bg-gradient-to-r from-[#c0426a]/20 to-[#36b9ff]/90 z-0 -right-1 top-14"></span>
+              </span>
+            </a>
+          </div>
         </div>
       </div>
     </div>
