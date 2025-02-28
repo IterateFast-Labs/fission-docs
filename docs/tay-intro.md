@@ -235,7 +235,7 @@ The **LP** is permanently locked, guaranteeing no centralized party can withdraw
 
 ### **Additional Liquidity**
 
-The team later claimed and re-injected most earned fees into the LP, as seen in these transactions:
+The team later claimed and supplied most earned fees into the LP, as seen in these transactions:
 
 1. [Link 1](https://solscan.io/tx/4oYUJmGip2TyozTVcGa6E7dhHCWsKCKYMyyFhr6191UVWQmjWfiYRd24EiemacuE9WERJ4szZv5qQ5RmcnLHkUyv)
 2. [Link 2](https://solscan.io/tx/7G82vr1bUKqi8yEybKRdyh8ri3bxbjXTDh9pAdN42Rar5LrABFnWuet4ATRaKz9qGaw7waMA8npMNyq4dqYcoRz)
