@@ -2,7 +2,10 @@
 
 ### 2.1. **General Concept of Retrieval-Augmented Generation(RAG)**
 
-![Figure 1: Standard RAG Architecture showing the preprocessing and runtime stages. The system combines dense retrieval (vector database) and sparse retrieval (TF-IDF index) approaches to retrieve relevant information, which is then ranked and processed by a generative model to produce the final response.](/img/docs/fission-research/rag-ai/concept-of-rag/1-img.png)
+<img src="/img/docs/fission-research/rag-ai/concept-of-rag/1-img.png" width="360px" style={{
+    display: 'block',
+    margin: '30px auto'
+}} />
 
 Figure 1: Standard RAG Architecture showing the preprocessing and runtime stages. The system combines dense retrieval (vector database) and sparse retrieval (TF-IDF index) approaches to retrieve relevant information, which is then ranked and processed by a generative model to produce the final response.
 
@@ -12,7 +15,7 @@ Retrieval-Augmented Generation (RAG) systems are a class of architectures that c
 
 ![Figure 2. Illustration of accurate vs inaccurate document retrieval in RAG systems and their impact on generator outputs. ](/img/docs/fission-research/rag-ai/concept-of-rag/2-img.png)
 
-Figure 2. Illustration of accurate vs inaccurate document retrieval in RAG systems and their impact on generator outputs. 
+Figure 2. Illustration of accurate vs inaccurate document retrieval in RAG systems and their impact on generator outputs.
 
 Retrieval bottlenecks stem from limitations in the retriever’s ability to identify relevant documents, especially in cases involving ambiguous queries or sparse data [7]. Dense retrievers, while effective in capturing semantic similarities, often struggle with out-of-domain queries due to their reliance on pre-trained embeddings (Zhao et al., 2021). Sparse retrievers, although more interpretable, can fail in capturing nuanced meanings in complex queries. The interplay between retriever quality and downstream generation significantly affects overall system accuracy [8]. Generators in RAG systems face challenges in effectively utilizing retrieved contexts. Issues such as irrelevant or contradictory context lead to hallucinations, where the generator produces inaccurate or fabricated information [9]. Furthermore, the fixed-size context window of transformer-based models limits the system’s ability to process long documents comprehensively, impacting the relevance and coherence of the output (Wang et al., 2022).
 
