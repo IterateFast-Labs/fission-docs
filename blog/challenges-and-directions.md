@@ -1,5 +1,7 @@
-# Challenges and directions for crypto-based AI agents
-
+---
+title: Challenges and directions for crypto-based AI agents
+date: 2025-01-03
+authors: daemonlee
 ---
 
 # 1. Before we get started
@@ -25,8 +27,6 @@ In contrast, **decentralized AI agents** capitalize on distributed trust to en
 2. **Challenges** that arise when centralization is replaced by a distributed architecture, focusing on data curation, token economics, and real-time adaptability.
 3. **Directions** for solving these issues, and how **Fission** aims to integrate AI-centric and blockchain-based solutions to form a viable and scalable ecosystem for Crypto-based AI agents.
 
----
-
 # 2. **Opportunities Provided by Decentralized AI**
 
 ## 2-1. **Data Ownership and Privacy Enhancement**
@@ -37,11 +37,32 @@ Moreover, advanced cryptographic techniques (e.g., zero-knowledge proofs, homomo
 
 **_Table 1. Centralized vs. decentralized AI (from a data ownership perspective)_**
 
-| Category           | **Centralized AI**                                                                          | **Decentralized AI**                                                    |
-| ------------------ | ------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| **Data ownership** | Primarily corporate (platform) owned, limited user control                                  | Collectively owned by individual users or DAO communities               |
-| **Privacy**        | Personal information is centralized on a centralized server, potentially at risk of leakage | Blockchain and cryptographic techniques protect data, minimize exposure |
-| **Accessibility**  | Access may be restricted by the platform's policies                                         | Anyone can join the network, with less regional and national boundaries |
+<table>
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th><strong>Centralized AI</strong></th>
+      <th><strong>Decentralized AI</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Data ownership</strong></td>
+      <td>Primarily corporate (platform) owned, limited user control</td>
+      <td>Collectively owned by individual users or DAO communities</td>
+    </tr>
+    <tr>
+      <td><strong>Privacy</strong></td>
+      <td>Personal information is centralized on a centralized server, potentially at risk of leakage</td>
+      <td>Blockchain and cryptographic techniques protect data, minimize exposure</td>
+    </tr>
+    <tr>
+      <td><strong>Accessibility</strong></td>
+      <td>Access may be restricted by the platform's policies</td>
+      <td>Anyone can join the network, with less regional and national boundaries</td>
+    </tr>
+  </tbody>
+</table>
 
 - **Key Benefit**: Users decide how much and what portion of their data is accessible for AI inference, aligning with **data sovereignty**and **privacy-first** practices.
 
@@ -57,7 +78,7 @@ Decentralized AI agents, once deployed, can be accessed by anyone with an intern
 
 Unlike conventional **platform-centric crowdsourcing**, this decentralized model emphasizes **community ownership** and collaboration, potentially leading to more sustainable “collective intelligence”. Moreover, the **DAO mechanism** can extend democratic governance to these AI-driven processes, ensuring that multinational or multi-stakeholder inputs are considered, and fueling **continuous innovation**loops.
 
----
+<!-- truncate -->
 
 # 3. Challenges Encountered by Crypto-Based AI Agents
 
@@ -88,7 +109,7 @@ Many AI agent systems rely on **static or periodically updated** datasets, whi
 
 While many solutions brand themselves as AI “agents”, frameworks for systematically assessing these agents’ **accuracy, reliability, adaptability,** and **hallucination** rates are scarce. Traditional performance metrics like **F1 scores** or simple **accuracy** do not capture the complexity of multi-step decision-making, particularly in crypto-based contexts (e.g., managing DAO proposals, overseeing investment strategies, analyzing real-time blockchain metrics). Without robust evaluation methods, user or investor **trust** can be compromised, and **continuous improvement** remains elusive.
 
----
+<!-- truncate -->
 
 # 4. **Directions for Overcoming Key Challenges**
 
@@ -120,7 +141,7 @@ Such evaluations serve as **feedback loops** that drive iterative improvements
 
 Token-based projects often suffer from **value fluctuations** that undermine user confidence. A **multi-dimensional** token economy—accounting for data validity, user contributions, and domain improvements—can strike a balance between **collective intelligence** and **financial incentives**. Moreover, the synergy between tokens and **DAO governance** fosters community-level checks, so that the entire system remains fair and equitable over time.
 
----
+<!-- truncate -->
 
 # 5. Fission's Approach:
 
@@ -164,7 +185,7 @@ This holistic evaluation guarantees that Fission’s AI agents remain reliable, 
 
 Fission utilizes a multi-dimensional reward metric to ensure that community engagement is not a one-off, but a long-term ecosystem contribution. Rather than simply rewarding the “quantity” of labels, Fission distributes tokens based on a combination of accuracy, meaningful feedback (objections, contributions to discussions), and contributions to improving agent learning performance. By doing so, we aim to mitigate the dichotomy of “rising labor costs vs. declining quality” that other projects have faced, and to stabilize the “token value volatility” issue in the long term.
 
----
+<!-- truncate -->
 
 # 6. Conclusion
 

@@ -1,6 +1,11 @@
-# Alright, But How the Hell Can We Find(Evaluate) A good Agent?
-
 ---
+title: How can we find(evaluate) A good Agent?
+date: 2025-01-04
+authors:
+  - daemonlee
+---
+
+> Alright, But How the Hell Can We Find(Evaluate) A good Agent?
 
 ### What Makes a "Good Agent"? Evaluating Agents in the Era of LLM-Based RAG Systems
 
@@ -8,7 +13,7 @@
 
 The rise of Large Language Model (LLM)-powered Retrieval-Augmented Generation (RAG) has led to an explosion of projects and services claiming to integrate "agents" into their systems. From task automation to advanced decision-making, these agents are reshaping industries. However, amid the wave of hype, a critical question emerges: _What constitutes a good agent?_ As the AI community navigates this flood of agent-based solutions, it’s imperative to establish robust evaluation methods to differentiate effective agents from underperforming ones. This article explores how to evaluate agents using methods like "G-Eval" and "Hallucination + RAG Evaluation" and why this is critical for the future of agent-based systems.
 
----
+<!-- truncate -->
 
 ### The Current Challenge: Defining a Good Agent
 

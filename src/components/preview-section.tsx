@@ -9,11 +9,11 @@ export default function PreviewSection() {
   return (
     <div className="relative md:bg-gray-800/60 md:py-10 md:rounded-2xl overflow-hidden lg:shadow-xl">
       <img
-        src={`${siteConfig.baseUrl === '/' ? '' : siteConfig.baseUrl}/image/logomark3d.png`}
+        src={`${siteConfig.baseUrl === '/' ? '' : siteConfig.baseUrl}/landing-img/logomark3d.png`}
         className="opacity-50 absolute -top-[12%] -left-[12%] rotate-90 z-0 hidden md:block"
       />
       <img
-        src={`${siteConfig.baseUrl === '/' ? '' : siteConfig.baseUrl}/image/logomark3d.png`}
+        src={`${siteConfig.baseUrl === '/' ? '' : siteConfig.baseUrl}/landing-img/logomark3d.png`}
         className="opacity-50 absolute -bottom-[10%] -right-[4%] z-0 rotate-45 hidden md:block"
       />
       <div className="mx-auto w-fit min-w-[300px]">

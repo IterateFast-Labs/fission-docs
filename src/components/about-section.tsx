@@ -1,31 +1,31 @@
 const keyComponentsDocs = [
   {
-    url: '/docs/blog/post/stop-calling-agent',
+    url: '/blog/stop-calling-agent',
     title: 'Stop Calling Everything an Agent – Here’s What it Actually Means',
   },
   {
-    url: '/docs/blog/post/why-centralized-data',
+    url: '/blog/why-centralized-data',
     title: 'Why Centralized Data Labeling will be a huge problem in AI?',
   },
   {
-    url: '/docs/blog/post/retrieval-augmented-generation',
+    url: '/blog/retrieval-augmented-generation',
     title:
       'Retrieval Augmented Generation : A Critical Tool for Managing and Selecting Dataset in Web3',
   },
   {
-    url: '/docs/blog/post/how-to-find-good-agent',
+    url: '/blog/how-to-find-good-agent',
     title: 'Alright, But How the Hell Can We Find(Evaluate) A good Agent?',
   },
   {
-    url: '/docs/blog/post/challenges-and-directions',
+    url: '/blog/challenges-and-directions',
     title: 'Challenges and directions for crypto-based AI agents',
   },
   {
-    url: '/docs/blog/post/hybrid-search',
+    url: '/blog/hybrid-search',
     title: 'Hybrid Search : Spare + Dense RAG',
   },
   {
-    url: '/docs/blog/post/raft-rag',
+    url: '/blog/raft-rag',
     title: 'RAFT : RAG based Finetunning',
   },
 ];
@@ -121,7 +121,7 @@ export default function AboutSection() {
           </div>
           <div className="overflow-hidden rounded-xl aspect-square w-60 order-1">
             <img
-              src="/image/tay.jpg"
+              src="/landing-img/tay.jpg"
               width={240}
               height={240}
               className="object-cover w-full h-full"

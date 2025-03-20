@@ -2,15 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
-
-/* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
+  --ifm-color-primary: #05094b;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
@@ -33,10 +26,53 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-/**
- 둥실둥실하게 움직이는 애니메이션을 만들어보자.
- 이름 : buoyancy
- */
+html {
+  font-size: 16px;
+}
+
+.menu__link {
+  font-size: 0.875rem;
+}
+
+.menu__link--active {
+  font-weight: bold;
+}
+
+h1 {
+  @apply text-4xl leading-tight;
+}
+
+h2 {
+  @apply text-3xl leading-tight;
+}
+
+h3 {
+  @apply text-2xl leading-tight;
+}
+
+h4 {
+  @apply text-xl leading-tight;
+}
+
+p {
+  @apply text-base leading-normal;
+}
+
+a {
+  @apply text-primary;
+}
+
+blockquote {
+  @apply border-l-4 border-primary italic text-gray-600 py-2.5;
+}
+
+blockquote p {
+  @apply text-lg;
+}
+
+.avatar {
+  @apply py-2;
+}
 
 @keyframes buoyancy {
   0% {

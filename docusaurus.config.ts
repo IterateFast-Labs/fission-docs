@@ -40,8 +40,6 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl: 'https://github.com/IterateFast-Labs/fission-docs',
         },
         blog: {
@@ -50,13 +48,11 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/IterateFast-Labs/fission-docs',
-          // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
+          onUntruncatedBlogPosts: 'throw',
+          blogSidebarTitle: 'All posts',
+          blogSidebarCount: 'ALL',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -67,16 +63,17 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'image/social-card.jpg',
+    image: 'landing-img/social-card.jpg',
     colorMode: {
       defaultMode: 'light',
       disableSwitch: true,
     },
+
     navbar: {
       title: 'Fission',
       logo: {
         alt: 'Fission Logo',
-        src: 'image/logo.svg',
+        src: 'landing-img/logo.svg',
       },
       items: [
         {
@@ -87,7 +84,7 @@ const config: Config = {
         },
         {
           type: 'docSidebar',
-          sidebarId: 'fissionResearchSidebar',
+          sidebarId: 'researchSidebar',
           position: 'left',
           label: 'Research',
         },
@@ -98,65 +95,20 @@ const config: Config = {
           label: 'Tay',
         },
         {
-          type: 'docSidebar',
-          sidebarId: 'blogSidebar',
-          position: 'left',
+          to: '/blog',
           label: 'Blog',
+          position: 'left',
         },
+
         {
-          href: 'https://github.com/IterateFast-Labs',
-          label: 'GitHub',
+          type: 'doc',
+          docId: 'official-link',
+          label: '🔗 Links',
           position: 'right',
         },
       ],
     },
     footer: {
-      style: 'dark',
-      links: [
-        // {
-        //   title: 'Docs',
-        //   items: [
-        //     {
-        //       label: 'Tutorial',
-        //       to: '/docs/intro',
-        //     },
-        //   ],
-        // },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Hub',
-              href: 'https://hub.xyz/fission',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/fission_web3',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discord.com/invite/XFWtmDDf8s',
-            },
-            {
-              label: 'Telegram',
-              href: 'https://t.me/fission_official',
-            },
-          ],
-        },
-        // {
-        //   title: 'More',
-        //   items: [
-        //     {
-        //       label: 'Blog',
-        //       to: '/blog',
-        //     },
-        //     {
-        //       label: 'GitHub',
-        //       href: 'https://github.com/IterateFast-Labs',
-        //     },
-        //   ],
-        // },
-      ],
       copyright: `Copyright © ${new Date().getFullYear()} Iterate Fast Labs. Built with Docusaurus.`,
     },
     prism: {

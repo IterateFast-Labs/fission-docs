@@ -1,8 +1,8 @@
-# Why Centralized Data Labeling will be a huge problem in AI?
-
 ---
-
-### Why Centralized Data Labeling Will Be a Potential Danger in AI's Future
+title: Why Centralized Data Labeling Will Be a Potential Danger in AI's Future
+date: 2025-01-07
+authors: daemonlee
+---
 
 The rapid evolution of artificial intelligence (AI) hinges significantly on the quality of data used for training models. However, centralized data labeling—where a few entities control the annotation and validation processes—poses significant risks to the development and deployment of robust AI systems. As AI becomes increasingly multi-modal, combining textual and visual modalities, the limitations of centralized labeling become more evident, threatening the very progress of the field.
 
@@ -53,7 +53,7 @@ Decentralized approaches, combined with advanced validation mechanisms, can demo
 
 Centralized data labeling is a looming danger to the future of AI, particularly as multi-modal systems become more prevalent. The limitations of such systems in handling complex visual tasks and the biases introduced by centralized practices underscore the urgent need for a paradigm shift. By embracing decentralized, transparent, and inclusive labeling frameworks, the AI community can safeguard against these risks and ensure the development of equitable and robust AI technologies.
 
----
+<!-- truncate -->
 
 ### Reference
 

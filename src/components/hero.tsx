@@ -22,21 +22,16 @@ export function Hero() {
           </p>
           <div className="w-fit mx-auto">
             <a
-              className="flex items-center rounded-xl text-white hover:text-white bg-[#c0426a]"
+              className="flex w-fit bg-black items-center gap-4 p-3 rounded-lg text-white group hover:bg-white"
               href="#tay"
             >
               <img
-                src="/image/tay.jpg"
+                src="/landing-img/tay.jpg"
                 alt="TAY"
-                className="w-20 h-20 rounded-tl-lg rounded-bl-lg overflow-hidden shrink-0"
+                className="w-14 aspect-square rounded-lg overflow-hidden shrink-0"
               />
-              <span className="font-bold text-lg px-8 h-20 flex justify-center items-center relative overflow-hidden rounded-lg">
-                <span className="relative z-10">Learn more about TAY</span>
-                <span className="absolute w-20 h-6 bg-gradient-to-r from-[#c0426a] to-[#0ABEEF]/80 z-0 -right-1 -top-1"></span>
-                <span className="absolute w-20 h-6 bg-gradient-to-r from-[#c0426a] to-[#ba6bfb]/90 z-0 -right-2 top-2"></span>
-                <span className="absolute w-20 h-6 bg-gradient-to-r from-[#c0426a] to-[#6bfbed]/100 z-0 -right-4 top-8"></span>
-                <span className="absolute w-20 h-6 bg-gradient-to-r from-[#c0426a]/20 to-[#36ff65]/90 z-0 -right-1 top-16"></span>
-                <span className="absolute w-20 h-6 bg-gradient-to-r from-[#c0426a]/20 to-[#36b9ff]/90 z-0 -right-1 top-14"></span>
+              <span className="group-hover:text-black font-bold text-lg">
+                Learn more about TAY
               </span>
             </a>
           </div>
@@ -106,10 +101,8 @@ function Logo({
 
 function Background() {
   return (
-    // 항상 부모의 가운데에 위치하도록 설정
-    // absolute: 부모 요소를 기준으로 위치를 잡음
     <img
-      src="/image/hero-background.png"
+      src="/landing-img/hero-background.png"
       alt="Hero"
       className="absolute inset-0 w-full h-full object-cover"
     />

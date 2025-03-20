@@ -5,7 +5,7 @@ export default function FrameworkDiagram() {
   return (
     <div>
       <img
-        src={`${siteConfig.baseUrl === '/' ? '' : siteConfig.baseUrl}/image/framework-desktop.jpg`}
+        src={`${siteConfig.baseUrl === '/' ? '' : siteConfig.baseUrl}/landing-img/framework-desktop.jpg`}
         alt="Fission"
         className="mx-auto hidden lg:block"
         style={{ imageRendering: 'pixelated' }}
@@ -13,7 +13,7 @@ export default function FrameworkDiagram() {
         height={672}
       />
       <img
-        src={`${siteConfig.baseUrl === '/' ? '' : siteConfig.baseUrl}/image/framework-mobile.jpg`}
+        src={`${siteConfig.baseUrl === '/' ? '' : siteConfig.baseUrl}/landing-img/framework-mobile.jpg`}
         alt="Fission"
         className="block lg:hidden mx-auto"
         style={{ imageRendering: 'pixelated', aspectRatio: '600/1232' }}

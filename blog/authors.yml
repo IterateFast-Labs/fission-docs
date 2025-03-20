@@ -1,23 +1,15 @@
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+daemonlee:
+  name: Damon Lee
+  title: Fission Team
   page: true
+  image_url: https://pbs.twimg.com/profile_images/1901590933499678720/qbwpEKW0_400x400.jpg
   socials:
-    x: yangshunz
-    github: yangshun
+    x: https://x.com/i_naiveai
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
-  page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
+christopher:
+  name: Christopher
+  title: Fission Team
+  page: true
+  image_url: https://pbs.twimg.com/profile_images/1896666504818794496/27a3LPKO_400x400.jpg
   socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
+    x: https://x.com/chirstopher_c

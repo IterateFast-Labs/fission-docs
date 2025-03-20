@@ -348,7 +348,7 @@ While the 2025 roadmap gives an overview of near-term goals, TAY’s longer-term
 - **Cross-Platform Dominance**: Deploying TAY across multiple networks and DApps, spurred by $TAY holder initiatives.
 - **Deep Persona & Role Systems:** Expanding TAY into advanced “expert modes” (e.g., legal consultant, mental health aide, gaming companion), subject to robust ethical guidelines and user feedback.
 - **Enhanced Data Privacy**: Allowing users to manage personal data usage more granularly, further boosting trust and accountability.
-- **Voice Interaction & Multimodal AI:** Introducing natural speech engagement, bridging offline and online experiences. and exploring integration with image/video data for richer, multimodal dialogues.
+- **Voice Interaction & Multimodal AI:** Introducing natural speech engagement, bridging offline and online experiences. and exploring integration with landing-img/video data for richer, multimodal dialogues.
 - **Evolving DAO Dynamics**: Continual refinement of staking, voting, and reward mechanics—ensuring TAY’s governance reflects the newest industry best practices and user feedback.
 
 **Note**: This timeline is intentionally **collaborative**. TAY’s pace depends on **$TAY holders** proposing and voting on upcoming features, brand partnerships, or “temperature” calibrations. While some might find it slower than a typical corporate roadmap, we believe that **quality** and **community consensus** lead to more sustainable and responsible AI evolution.

@@ -1,12 +1,12 @@
-# RAFT : RAG based Finetunning
-
+---
+title: RAFT - RAG based Finetunning
+date: 2025-01-01
+authors: daemonlee
 ---
 
 ### Why We Need RAFT: Adapting Language Models to Domain-Specific RAG
 
 The evolution of Retrieval-Augmented Generation (RAG) has unlocked unprecedented possibilities in AI, enabling generative models to retrieve and incorporate external data dynamically. However, as AI frameworks increasingly interface with domain-specific contexts like Web3, there is a growing need for a specialized adaptation mechanism—RAFT (Retrieval-Adapted Fine-Tuning). This blog explores why RAFT is essential for adapting language models to domain-specific RAG, enhancing real-time interactions with the Web3 community and its users.
-
----
 
 ### The Challenge: Domain-Specificity in RAG
 
@@ -18,8 +18,6 @@ Web3 ecosystems are inherently dynamic and domain-specific, characterized by:
 
 While RAG frameworks excel in retrieving relevant data, they often struggle with adapting generative outputs to these domain-specific requirements. Without fine-tuning, language models risk producing generic or irrelevant responses that fail to meet the expectations of Web3 users.
 
----
-
 ### Enter RAFT: Retrieval-Adapted Fine-Tuning
 
 ![image.png](/img/docs/blog/post/raft-rag/1-img.png)
@@ -29,8 +27,6 @@ RAFT bridges the gap between general-purpose language models and domain-specific
 1. **Domain-Specific Retrieval Feedback**: Using real-time feedback loops from RAG outputs to iteratively improve model understanding of domain-specific data.
 2. **Contextual Adaptation**: Embedding domain-specific knowledge directly into the model, ensuring outputs align with Web3 terminology and concepts.
 3. **Real-Time Interaction**: Enabling models to dynamically adapt to the evolving nature of decentralized communities.
-
----
 
 ### Why RAFT is Essential for Web3
 
@@ -60,8 +56,6 @@ With RAFT, models can:
 
 Using RAFT, language models can seamlessly interface with decentralized storage solutions like [IPFS](https://ipfs.io/) and [Arweave](https://www.arweave.org/), as well as multi-modal vector databases like [Milvus](https://milvus.io/).
 
----
-
 ### How RAFT Works
 
 1. **Data Collection**:
@@ -76,7 +70,7 @@ Using RAFT, language models can seamlessly interface with decentralized storage 
 4. **Evaluation and Feedback**:
    - Iteratively evaluate model outputs using metrics like BLEU, ROUGE, and human validation.
 
----
+<!-- truncate -->
 
 ### Comparative Analysis: General RAG vs. Domain-Specific RAFT
 
@@ -89,8 +83,6 @@ Using RAFT, language models can seamlessly interface with decentralized storage 
 
 - **General RAG**: Slower due to inefficiencies in adapting retrieved data.
 - **RAFT-Enhanced RAG**: Optimized for real-time interactions.
-
----
 
 ### Real-World Applications
 
@@ -105,8 +97,6 @@ Using RAFT, language models can seamlessly interface with decentralized storage 
 ### 3. **Multi-Chain Interoperability**:
 
 - Facilitates understanding of cross-chain protocols, improving developer support for interoperability solutions.
-
----
 
 ### Why Our Technology is the Future
 

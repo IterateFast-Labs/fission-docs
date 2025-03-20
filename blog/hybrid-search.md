@@ -1,8 +1,10 @@
-# Hybrid Search : Spare + Dense RAG
-
+---
+title: Hybrid Search = Spare + Dense RAG
+date: 2025-01-02
+authors: daemonlee
 ---
 
-### Why We Use Hybrid Search RAG (Sparse + Dense Embedding + ReRanker) Instead of Naive RAG
+> Why We Use Hybrid Search RAG (Sparse + Dense Embedding + ReRanker) Instead of Naive RAG?
 
 ### Problem Statement: Decentralized Web3 Agents and the Need for Efficient Data Retrieval
 
@@ -13,8 +15,6 @@ The emergence of decentralized Web3 agents has redefined the landscape of AI-dri
 3. **Performance Bottlenecks**: Standard retrieval mechanisms struggle with scalability and semantic understanding in decentralized systems.
 
 This is where Hybrid Search RAG—a sophisticated blend of sparse and dense embedding retrieval with re-ranking—becomes a game-changer. It not only addresses these challenges but also sets a new benchmark for data retrieval in decentralized frameworks.
-
----
 
 ### What is Naive RAG?
 
@@ -29,7 +29,7 @@ While effective for basic applications, naive RAG has critical shortcomings:
 2. **Suboptimal Ranking**: Dense embeddings can retrieve irrelevant documents due to lack of fine-grained ranking mechanisms.
 3. **Scalability Issues**: Naive implementations struggle to efficiently handle large-scale or multi-modal datasets.
 
----
+<!-- truncate -->
 
 ### The Hybrid Search RAG Advantage
 
@@ -49,7 +49,7 @@ This hybrid approach ensures that retrieved documents are both semantically rele
 - **Contextual Relevance**: Re-ranking models ensure that retrieved documents align with the generative model’s requirements.
 - **Multi-Modal Support**: Hybrid RAG excels in environments with diverse data types (text, images, etc.), a necessity for modern applications.
 
----
+<!-- truncate -->
 
 ### Why Milvus?
 
@@ -64,7 +64,7 @@ Hybrid Search RAG’s effectiveness is amplified by robust database technologies
 
 By adopting Milvus, we unlock the full potential of Hybrid Search RAG, ensuring scalability, speed, and adaptability for cutting-edge AI applications.
 
----
+<!-- truncate -->
 
 ### Real-World Applications
 
@@ -80,7 +80,7 @@ By adopting Milvus, we unlock the full potential of Hybrid Search RAG, ensuring 
 
 - Improves product recommendation systems by understanding both semantic and lexical queries.
 
----
+<!-- truncate -->
 
 ### Why Our Technology is the Future
 
@@ -92,7 +92,7 @@ By adopting Hybrid Search RAG powered by [Milvus](https://milvus.io/), we are pi
 
 Our technology is not just an upgrade; it’s a paradigm shift that transforms what RAG-based frameworks can achieve, propelling the field into a new era of innovation.
 
----
+<!-- truncate -->
 
 ### References
 
