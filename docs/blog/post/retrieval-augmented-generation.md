@@ -1,9 +1,8 @@
-
 # Retrieval Augmented Generation : A Critical Tool for Managing and Selecting Dataset in Web3
 
 ---
 
-![image.png](/img/docs/users/our-insight/retrieval-augmented-generation/1-img.png)
+![image.png](/img/docs/blog/post/retrieval-augmented-generation/1-img.png)
 
 ### Retrieval-Augmented Generation (RAG): A Critical Tool for Managing and Selecting Datasets in Decentralized Data Labeling
 
@@ -71,8 +70,8 @@ Retrieval-Augmented Generation is a game-changing approach for managing and sele
 Reference
 
 1. **Improving Multi-Modal Learning**:
-    - Research by Chen et al. (2024) highlights the challenges of multi-modal alignment in large language models. RAG’s retrieval capabilities allow models to access structured annotations dynamically, mitigating the "multi-modal alignment tax."
+   - Research by Chen et al. (2024) highlights the challenges of multi-modal alignment in large language models. RAG’s retrieval capabilities allow models to access structured annotations dynamically, mitigating the "multi-modal alignment tax."
 2. **Bias Detection and Mitigation**:
-    - Zeng (2024) demonstrated how decentralized frameworks using RAG identified biases in labeled clock images. By retrieving diverse datasets, the system was able to generate more balanced annotations.
+   - Zeng (2024) demonstrated how decentralized frameworks using RAG identified biases in labeled clock images. By retrieving diverse datasets, the system was able to generate more balanced annotations.
 3. **Optimizing Data Validation**:
-    - Studies on collaborative labeling platforms, such as those by OpenAI and Meta AI Labs, show how RAG reduces inconsistencies by retrieving cross-referenced data for annotation validation.
+   - Studies on collaborative labeling platforms, such as those by OpenAI and Meta AI Labs, show how RAG reduces inconsistencies by retrieving cross-referenced data for annotation validation.

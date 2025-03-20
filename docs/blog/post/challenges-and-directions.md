@@ -11,7 +11,7 @@ A **decentralized AI agent** is a system that harnesses **artificial intellig
 ## 1-2. Why is decentralization important in AI?
 
 > 🤖
-> *Decentralized AI Agents for Trust, Security, and Next-Generation Applications*
+> _Decentralized AI Agents for Trust, Security, and Next-Generation Applications_
 
 ### Background and Motivation
 
@@ -35,13 +35,14 @@ The efficacy of AI models is often driven by large datasets. Yet, in a centraliz
 
 Moreover, advanced cryptographic techniques (e.g., zero-knowledge proofs, homomorphic encryption) allow for **privacy-preserving computation**, such that sensitive information can remain hidden while still contributing statistical insights to the learning process. This approach can be especially salient in healthcare or financial sectors, where **data confidentiality**is paramount. Coupled with **tokenized compensation** for data providers, these protocols further incentivize high-quality data submissions while respecting individual privacy preferences.
 
-***Table 1. Centralized vs. decentralized AI (from a data ownership perspective)***
+**_Table 1. Centralized vs. decentralized AI (from a data ownership perspective)_**
 
-| Category | **Centralized AI** | **Decentralized AI** |
-| --- | --- | --- |
-| **Data ownership** | Primarily corporate (platform) owned, limited user control | Collectively owned by individual users or DAO communities |
-| **Privacy** | Personal information is centralized on a centralized server, potentially at risk of leakage | Blockchain and cryptographic techniques protect data, minimize exposure |
-| **Accessibility** | Access may be restricted by the platform's policies | Anyone can join the network, with less regional and national boundaries |
+| Category           | **Centralized AI**                                                                          | **Decentralized AI**                                                    |
+| ------------------ | ------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| **Data ownership** | Primarily corporate (platform) owned, limited user control                                  | Collectively owned by individual users or DAO communities               |
+| **Privacy**        | Personal information is centralized on a centralized server, potentially at risk of leakage | Blockchain and cryptographic techniques protect data, minimize exposure |
+| **Accessibility**  | Access may be restricted by the platform's policies                                         | Anyone can join the network, with less regional and national boundaries |
+
 - **Key Benefit**: Users decide how much and what portion of their data is accessible for AI inference, aligning with **data sovereignty**and **privacy-first** practices.
 
 ## 2-2. Trust and Transparency
@@ -121,7 +122,8 @@ Token-based projects often suffer from **value fluctuations** that undermine u
 
 ---
 
-# 5. Fission's Approach: 
+# 5. Fission's Approach:
+
 **An AI Agent-Centric Data Layer**
 
 ## 5-1. Hybrid Data Labeling with On-Chain Tracking

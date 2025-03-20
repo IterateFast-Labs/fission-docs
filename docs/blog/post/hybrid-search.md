@@ -33,7 +33,7 @@ While effective for basic applications, naive RAG has critical shortcomings:
 
 ### The Hybrid Search RAG Advantage
 
-![image.png](/img/docs/users/our-insight/hybrid-search/1-img.png)
+![image.png](/img/docs/blog/post/hybrid-search/1-img.png)
 
 Hybrid Search RAG addresses these limitations by combining:
 

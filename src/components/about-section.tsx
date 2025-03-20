@@ -1,31 +1,31 @@
 const keyComponentsDocs = [
   {
-    url: '/docs/users/our-insight/stop-calling-agent',
+    url: '/docs/blog/post/stop-calling-agent',
     title: 'Stop Calling Everything an Agent – Here’s What it Actually Means',
   },
   {
-    url: '/docs/users/our-insight/why-centralized-data',
+    url: '/docs/blog/post/why-centralized-data',
     title: 'Why Centralized Data Labeling will be a huge problem in AI?',
   },
   {
-    url: '/docs/users/our-insight/retrieval-augmented-generation',
+    url: '/docs/blog/post/retrieval-augmented-generation',
     title:
       'Retrieval Augmented Generation : A Critical Tool for Managing and Selecting Dataset in Web3',
   },
   {
-    url: '/docs/users/our-insight/how-to-find-good-agent',
+    url: '/docs/blog/post/how-to-find-good-agent',
     title: 'Alright, But How the Hell Can We Find(Evaluate) A good Agent?',
   },
   {
-    url: '/docs/users/our-insight/challenges-and-directions',
+    url: '/docs/blog/post/challenges-and-directions',
     title: 'Challenges and directions for crypto-based AI agents',
   },
   {
-    url: '/docs/users/our-insight/hybrid-search',
+    url: '/docs/blog/post/hybrid-search',
     title: 'Hybrid Search : Spare + Dense RAG',
   },
   {
-    url: '/docs/users/our-insight/raft-rag',
+    url: '/docs/blog/post/raft-rag',
     title: 'RAFT : RAG based Finetunning',
   },
 ];

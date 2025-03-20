@@ -87,21 +87,21 @@ const config: Config = {
         },
         {
           type: 'docSidebar',
-          sidebarId: 'usersSidebar',
-          position: 'left',
-          label: 'Users',
-        },
-        {
-          type: 'docSidebar',
           sidebarId: 'fissionResearchSidebar',
           position: 'left',
-          label: 'Fission Research',
+          label: 'Research',
         },
         {
           type: 'doc',
           docId: 'tay-intro',
           position: 'left',
-          label: 'Introducing Tay',
+          label: 'Tay',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'blogSidebar',
+          position: 'left',
+          label: 'Blog',
         },
         {
           href: 'https://github.com/IterateFast-Labs',

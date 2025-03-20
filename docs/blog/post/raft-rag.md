@@ -22,7 +22,7 @@ While RAG frameworks excel in retrieving relevant data, they often struggle with
 
 ### Enter RAFT: Retrieval-Adapted Fine-Tuning
 
-![image.png](/img/docs/users/our-insight/raft-rag/1-img.png)
+![image.png](/img/docs/blog/post/raft-rag/1-img.png)
 
 RAFT bridges the gap between general-purpose language models and domain-specific RAG systems. It fine-tunes generative AI models based on:
 
@@ -65,16 +65,16 @@ Using RAFT, language models can seamlessly interface with decentralized storage 
 ### How RAFT Works
 
 1. **Data Collection**:
-    - Gather domain-specific datasets from decentralized sources, including blockchain data, community forums, and project whitepapers.
+   - Gather domain-specific datasets from decentralized sources, including blockchain data, community forums, and project whitepapers.
 2. **Domain-Specific Retrieval**:
-    - Leverage RAG frameworks to fetch relevant data dynamically.
+   - Leverage RAG frameworks to fetch relevant data dynamically.
 3. **Fine-Tuning**:
-    - Adapt language models using retrieval outputs, incorporating:
-        - Lexical and semantic feedback.
-        - Domain-specific annotations.
-        - Task-specific prompts (e.g., transaction analysis, community Q&A).
+   - Adapt language models using retrieval outputs, incorporating:
+     - Lexical and semantic feedback.
+     - Domain-specific annotations.
+     - Task-specific prompts (e.g., transaction analysis, community Q&A).
 4. **Evaluation and Feedback**:
-    - Iteratively evaluate model outputs using metrics like BLEU, ROUGE, and human validation.
+   - Iteratively evaluate model outputs using metrics like BLEU, ROUGE, and human validation.
 
 ---
 

@@ -4,9 +4,9 @@
 
 ### What Makes a "Good Agent"? Evaluating Agents in the Era of LLM-Based RAG Systems
 
-![image.png](/img/docs/users/our-insight/how-to-find-good-agent/1-img.png)
+![image.png](/img/docs/blog/post/how-to-find-good-agent/1-img.png)
 
-The rise of Large Language Model (LLM)-powered Retrieval-Augmented Generation (RAG) has led to an explosion of projects and services claiming to integrate "agents" into their systems. From task automation to advanced decision-making, these agents are reshaping industries. However, amid the wave of hype, a critical question emerges: *What constitutes a good agent?* As the AI community navigates this flood of agent-based solutions, it’s imperative to establish robust evaluation methods to differentiate effective agents from underperforming ones. This article explores how to evaluate agents using methods like "G-Eval" and "Hallucination + RAG Evaluation" and why this is critical for the future of agent-based systems.
+The rise of Large Language Model (LLM)-powered Retrieval-Augmented Generation (RAG) has led to an explosion of projects and services claiming to integrate "agents" into their systems. From task automation to advanced decision-making, these agents are reshaping industries. However, amid the wave of hype, a critical question emerges: _What constitutes a good agent?_ As the AI community navigates this flood of agent-based solutions, it’s imperative to establish robust evaluation methods to differentiate effective agents from underperforming ones. This article explores how to evaluate agents using methods like "G-Eval" and "Hallucination + RAG Evaluation" and why this is critical for the future of agent-based systems.
 
 ---
 
@@ -58,21 +58,21 @@ Hallucination—the phenomenon of AI generating factually incorrect or irrelevan
 ### Key Components:
 
 - **Hallucination Detection**:
-    - Compare the agent’s responses against a ground-truth dataset (Khayrallah et al., 2020).
-    - Identify instances where the agent fabricates information or misrepresents retrieved data.
+  - Compare the agent’s responses against a ground-truth dataset (Khayrallah et al., 2020).
+  - Identify instances where the agent fabricates information or misrepresents retrieved data.
 - **RAG-Specific Metrics**:
-    - **Retrieval Accuracy**: Measures the precision of documents retrieved by the RAG system ([Lewis et al., 2020](https://arxiv.org/abs/2005.11401)).
-    - **Generation Quality**: Assesses how well the retrieved data is incorporated into the agent’s responses ([Izacard & Grave, 2021](https://arxiv.org/abs/2112.09332)).
-    - **Error Propagation Analysis**: Evaluates how retrieval errors affect the final output ([Liu et al., 2021](https://arxiv.org/abs/2110.08118)).
+  - **Retrieval Accuracy**: Measures the precision of documents retrieved by the RAG system ([Lewis et al., 2020](https://arxiv.org/abs/2005.11401)).
+  - **Generation Quality**: Assesses how well the retrieved data is incorporated into the agent’s responses ([Izacard & Grave, 2021](https://arxiv.org/abs/2112.09332)).
+  - **Error Propagation Analysis**: Evaluates how retrieval errors affect the final output ([Liu et al., 2021](https://arxiv.org/abs/2110.08118)).
 
 ### Implementation:
 
 1. **Synthetic Testing**:
-    - Introduce intentionally challenging queries to test the agent’s limits.
+   - Introduce intentionally challenging queries to test the agent’s limits.
 2. **Real-World Scenarios**:
-    - Monitor hallucination rates during live interactions.
+   - Monitor hallucination rates during live interactions.
 3. **Feedback Loops**:
-    - Incorporate user feedback and automated validation mechanisms to iteratively reduce hallucination rates.
+   - Incorporate user feedback and automated validation mechanisms to iteratively reduce hallucination rates.
 
 ### Example:
 
@@ -82,12 +82,12 @@ An agent tasked with providing cryptocurrency prices might hallucinate trends wi
 
 ### Comparative Analysis: G-Eval vs. Hallucination + RAG Evaluation
 
-| **Evaluation Aspect** | **G-Eval** | **Hallucination + RAG Evaluation** |
-| --- | --- | --- |
-| **Scope** | Broad; covers overall agent performance | Focused; targets factual accuracy |
-| **Metrics** | Task completion, consistency, adaptability | Retrieval accuracy, hallucination rate |
-| **Use Cases** | General-purpose agent evaluation | High-stakes or domain-specific tasks |
-| **Example Domains** | Web3, customer support, e-commerce | Healthcare, finance, technical support |
+| **Evaluation Aspect** | **G-Eval**                                 | **Hallucination + RAG Evaluation**     |
+| --------------------- | ------------------------------------------ | -------------------------------------- |
+| **Scope**             | Broad; covers overall agent performance    | Focused; targets factual accuracy      |
+| **Metrics**           | Task completion, consistency, adaptability | Retrieval accuracy, hallucination rate |
+| **Use Cases**         | General-purpose agent evaluation           | High-stakes or domain-specific tasks   |
+| **Example Domains**   | Web3, customer support, e-commerce         | Healthcare, finance, technical support |
 
 ---
 
