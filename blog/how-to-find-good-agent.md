@@ -13,8 +13,6 @@ authors:
 
 The rise of Large Language Model (LLM)-powered Retrieval-Augmented Generation (RAG) has led to an explosion of projects and services claiming to integrate "agents" into their systems. From task automation to advanced decision-making, these agents are reshaping industries. However, amid the wave of hype, a critical question emerges: _What constitutes a good agent?_ As the AI community navigates this flood of agent-based solutions, it’s imperative to establish robust evaluation methods to differentiate effective agents from underperforming ones. This article explores how to evaluate agents using methods like "G-Eval" and "Hallucination + RAG Evaluation" and why this is critical for the future of agent-based systems.
 
-<!-- truncate -->
-
 ### The Current Challenge: Defining a Good Agent
 
 An agent in the context of LLM-based RAG systems typically performs tasks by combining reasoning, retrieval, and interaction capabilities. However, the effectiveness of these agents varies widely due to:
@@ -26,13 +24,11 @@ An agent in the context of LLM-based RAG systems typically performs tasks by com
 
 Without rigorous evaluation frameworks, it’s challenging to identify and improve truly effective agents.
 
----
+<!-- truncate -->
 
 ### Our Approach: Evaluating Agents with Proven Methodologies
 
 To address this challenge, we propose two key evaluation methods: **G-Eval** and **Hallucination + RAG Evaluation**. These frameworks are designed to holistically assess an agent’s capabilities, performance, and reliability.
-
----
 
 ### 1. **G-Eval: A Generalized Agent Evaluation Framework**
 
@@ -53,8 +49,6 @@ To address this challenge, we propose two key evaluation methods: **G-Eval** and
 ### Example:
 
 For a Web3-based agent, G-Eval could involve tasks like explaining staking mechanisms, retrieving DAO proposals, and guiding wallet setup—each scored on task completion, response relevance, and user satisfaction.
-
----
 
 ### 2. **Hallucination + RAG Evaluation**
 
@@ -83,8 +77,6 @@ Hallucination—the phenomenon of AI generating factually incorrect or irrelevan
 
 An agent tasked with providing cryptocurrency prices might hallucinate trends without accessing real-time data. This method identifies such errors and assesses how effectively the agent integrates accurate data from RAG systems.
 
----
-
 ### Comparative Analysis: G-Eval vs. Hallucination + RAG Evaluation
 
 | **Evaluation Aspect** | **G-Eval**                                 | **Hallucination + RAG Evaluation**     |
@@ -94,8 +86,6 @@ An agent tasked with providing cryptocurrency prices might hallucinate trends wi
 | **Use Cases**         | General-purpose agent evaluation           | High-stakes or domain-specific tasks   |
 | **Example Domains**   | Web3, customer support, e-commerce         | Healthcare, finance, technical support |
 
----
-
 ### Why Agent Evaluation Matters
 
 Robust agent evaluation is critical for:
@@ -104,8 +94,6 @@ Robust agent evaluation is critical for:
 2. **Continuous Improvement**: Feedback from evaluation methods drives iterative enhancements in agent design and functionality.
 3. **Domain-Specific Excellence**: Tailored evaluation frameworks enable agents to excel in specialized fields, meeting specific user needs.
 4. **Scalability**: Effective evaluation paves the way for deploying high-quality agents at scale across diverse industries.
-
----
 
 ### The Road Ahead: Towards Better Agents
 

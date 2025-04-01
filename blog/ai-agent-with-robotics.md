@@ -5,8 +5,6 @@ authors:
   - daemonlee
 ---
 
-<!-- truncate -->
-
 ## The Dawn of Generalist Humanoid Robots
 
 In the rapidly evolving field of artificial intelligence, one of the most exciting frontiers is the development of generalist humanoid robots capable of performing a wide range of tasks in human environments. Recent breakthroughs in hardware design, model architecture, and training methodologies have brought us closer than ever to realizing this vision. This blog post explores the current state of robotics AI agents, focusing on NVIDIA's groundbreaking GR00T N1 model, and examines both the possibilities and challenges that lie ahead.
@@ -16,6 +14,8 @@ In the rapidly evolving field of artificial intelligence, one of the most exciti
 Just as foundation models like GPT and CLIP have revolutionized natural language processing and computer vision, similar approaches are now being applied to robotics. These robot foundation models aim to provide a versatile "backbone" of intelligence that can reason about novel situations, handle real-world variability, and quickly adapt to new tasks.
 
 NVIDIA recently introduced GR00T N1, an open foundation model specifically designed for humanoid robots. GR00T (Generalist Robot Transformer) represents a significant step toward creating robots that can operate in complex, unstructured environments and perform a diverse array of tasks through a unified learning framework.
+
+<!-- truncate -->
 
 ## What Makes GR00T N1 Special?
 

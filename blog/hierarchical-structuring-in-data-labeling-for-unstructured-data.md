@@ -10,13 +10,13 @@ authors:
 
 Managing **unstructured data** (text, images, audio, video) for machine learning is labor-intensive, especially when **labeling** large datasets. A proposed solution is to use **hierarchical structuring of labels** – for example, having a broad category like _“human”_ with sub-labels like _“race”_, _“gender”_, _“age group”_. The hypothesis is that a **taxonomy of labels** (categories and subcategories) can streamline annotation workflows and **reduce labeling and preprocessing costs**. In this report, we investigate existing research and industry practices to see if this hypothesis holds true. We examine how **hierarchical taxonomies** and multi-level schemas have been applied in data labeling pipelines, whether they improved efficiency or reduced resource use, and how this approach relates to modern _data-centric AI_ techniques (like weak supervision or active learning). We also discuss how hierarchical labeling could integrate with emerging architectures such as the **MCP(Model Context Protocol)** for agent-based AI, and consider potential benefits for **AI safety and fairness** (through more consistent, transparent labeling).
 
-<!-- truncate -->
-
 ## 2. Background
 
 ### Taxonomies and Hierarchical Labels
 
 A **taxonomy** in data labeling is a structured classification scheme: it defines categories and (optionally) subcategories in a tree-like hierarchy. In practice, a well-designed taxonomy can enhance labeling efficiency and consistency. By providing clear category definitions and relationships, taxonomy-based labeling gives annotators a structured guideline, reducing ambiguity. [According to industry guides](https://www.atltranslate.com/ai/blog/data-labeling-taxonomy), a good taxonomy enhances efficiency and accuracy in data labeling, reduces training time, and improves data comprehension.
+
+<!-- truncate -->
 
 Hierarchical labels allow data points to be tagged at multiple levels of detail, capturing complex relationships and enabling algorithms to understand the label structure. For example, an image of a person might first be labeled as _“Human”_, and then at finer levels as _“Human→Adult→Female”_, etc. This structured approach contrasts with flat label schemes where every label is independent.
 

@@ -12,6 +12,8 @@ Recent research has highlighted critical shortcomings in large language models (
 
 ![1-img.png](/img/docs/blog/post/why-centralized-data/1-img.png)
 
+<!-- truncate -->
+
 For instance, interpreting clock images requires understanding both the spatial arrangement of the hands and the time they represent. This challenge is compounded by the "multi-modal alignment tax"—a performance degradation that occurs when integrating misaligned or unstructured annotations. Training biases toward textual data worsen this issue, making models less effective at processing complex visual information. These challenges reveal how centralized labeling practices prioritize cost efficiency over data quality and diversity. In our complex human society, AI still struggles to understand nuanced textual contexts. Similarly, in generative AI, it remains difficult to determine whether models are producing factual information or merely simulating knowledge. This issue, known as hallucination, is the focus of extensive research aimed at detection and prevention. Even OpenAI acknowledges uncertainty about their models' accuracy.
 
 ### The Role of Biased Labeling and Centralized Data Validation
@@ -52,8 +54,6 @@ Decentralized approaches, combined with advanced validation mechanisms, can demo
 ### Conclusion
 
 Centralized data labeling is a looming danger to the future of AI, particularly as multi-modal systems become more prevalent. The limitations of such systems in handling complex visual tasks and the biases introduced by centralized practices underscore the urgent need for a paradigm shift. By embracing decentralized, transparent, and inclusive labeling frameworks, the AI community can safeguard against these risks and ensure the development of equitable and robust AI technologies.
-
-<!-- truncate -->
 
 ### Reference
 

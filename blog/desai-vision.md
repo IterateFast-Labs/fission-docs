@@ -22,6 +22,8 @@ However, gathering and managing this feedback via centralized methods proved cos
 
 That’s where **DeSci (Decentralized Science)** entered the conversation. DeSci promised an open, collaborative environment for knowledge-sharing and verification, yet it quickly became clear that **advanced AI** was needed to handle large data streams and real-time inputs. Combining DeSci’s ethos with AI-driven workflows gave rise to **DeSAi**—a synergy merging decentralized collaboration with iterative optimization.
 
+<!-- truncate -->
+
 ### 1-3. Purpose of This Article
 
 In this article, we share how our journey in AI model optimization naturally led us to embrace **user-driven feedback** at scale, eventually aligning with DeSci principles to form **DeSAi**. One remaining challenge was **how to govern and incentivize these decentralized feedback loops efficiently and fairly**. After evaluating various governance models, we settled on **Futarchy**, which uses prediction markets to guide resource allocation and decision-making.
@@ -103,8 +105,6 @@ Importantly, these measures serve as **enablers** rather than a cure-all. Large 
 - **Cautious Optimism**: The field moves quickly, with new “lightweight” FHE or specialized MPC protocols emerging. Tailoring model design to these constraints—rather than fighting them—could unlock new frontiers in privacy-protected AI.
 
 In short, Fission embraces a realistic stance: FHE, MPC, and TEE solutions for AI remain constrained, but **not impossible**. Through rigorous model optimization and incremental improvements, we believe privacy-preserving AI can support domain-specific tasks today—and possibly break new ground as technology evolves.
-
-<!-- truncate -->
 
 ## 3. The Turning Point: Human Feedback & Scalability
 

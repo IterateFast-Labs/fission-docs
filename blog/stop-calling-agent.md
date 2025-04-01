@@ -16,6 +16,8 @@ An LLM-based agent is an AI system that leverages a Large Language Model (LLM) a
 4. **Knowledge Integration:** Incorporates domain-specific knowledge, commonsense understanding, and procedural information to enhance decision-making and task execution.
 5. **Tool Integration:** Interfaces with external tools, APIs, or services to perform specialized tasks beyond language processing, such as data retrieval, computations, or accessing real-time information.
 
+<!-- truncate -->
+
 **Applications of LLM-Based Agents:**
 
 - **Conversational Assistants:** Engaging in natural language dialogues to provide information, answer questions, and assist users in various tasks.
@@ -30,8 +32,6 @@ An LLM-based agent is an AI system that leverages a Large Language Model (LLM) a
 - **"Exploring Large Language Model based Intelligent Agents: Definitions, Methods, and Prospects"** offers insights into the definitions, methodologies, and future directions of LLM-based intelligent agents.
 
 These resources provide in-depth analyses and discussions on the development, capabilities, and potential of LLM-based agents in various domains.
-
-<!-- truncate -->
 
 Reference:
 

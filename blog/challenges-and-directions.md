@@ -21,6 +21,8 @@ AI has become a cornerstone of modern industry, fueling innovation in areas like
 
 In contrast, **decentralized AI agents** capitalize on distributed trust to enhance **security** and **accountability**, allowing individual stakeholders to define how, when, and to what extent their data is leveraged. By having the broader network verify data and model processes, these agents reduce reliance on traditional centralized platforms and create an ecosystem that is more horizontally structured and community-driven.
 
+<!-- truncate -->
+
 ## 1-3. Purpose of This article
 
 1. **Opportunities** of decentralized AI, highlighting the ways in which decentralization can augment data sovereignty, transparency, and collaboration.
@@ -184,8 +186,6 @@ This holistic evaluation guarantees that Fission’s AI agents remain reliable, 
 ## 5-5. Designing tokenomics and ensuring long-term sustainability
 
 Fission utilizes a multi-dimensional reward metric to ensure that community engagement is not a one-off, but a long-term ecosystem contribution. Rather than simply rewarding the “quantity” of labels, Fission distributes tokens based on a combination of accuracy, meaningful feedback (objections, contributions to discussions), and contributions to improving agent learning performance. By doing so, we aim to mitigate the dichotomy of “rising labor costs vs. declining quality” that other projects have faced, and to stabilize the “token value volatility” issue in the long term.
-
-<!-- truncate -->
 
 # 6. Conclusion
 

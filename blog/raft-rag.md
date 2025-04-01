@@ -18,6 +18,8 @@ Web3 ecosystems are inherently dynamic and domain-specific, characterized by:
 
 While RAG frameworks excel in retrieving relevant data, they often struggle with adapting generative outputs to these domain-specific requirements. Without fine-tuning, language models risk producing generic or irrelevant responses that fail to meet the expectations of Web3 users.
 
+<!-- truncate -->
+
 ### Enter RAFT: Retrieval-Adapted Fine-Tuning
 
 ![image.png](/img/docs/blog/post/raft-rag/1-img.png)
@@ -69,8 +71,6 @@ Using RAFT, language models can seamlessly interface with decentralized storage 
      - Task-specific prompts (e.g., transaction analysis, community Q&A).
 4. **Evaluation and Feedback**:
    - Iteratively evaluate model outputs using metrics like BLEU, ROUGE, and human validation.
-
-<!-- truncate -->
 
 ### Comparative Analysis: General RAG vs. Domain-Specific RAFT
 
