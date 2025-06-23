@@ -36,7 +36,7 @@ These limitations contribute to 'copilot fatigue,' a growing frustration that th
 
 A new paradigm is emerging: a vision where AI agents move beyond mere query suggestions to autonomously comprehend high-level goals, plan complex analytical tasks, and directly generate meaningful, customized datasets from raw data lakes. This vision promises to unlock unprecedented value from existing data assets. It signifies a transition "from conversation to cognition," enabling AI to act as "a new worker in the data mine."
 
-![1](/img/docs/blog/post/beyond-the-copilot/1.png)
+<img src="/img/docs/blog/post/beyond-the-copilot/1.png" alt="Beyond the Copilot" style={{maxWidth: "120px", margin: "0 auto", display: "block"}}></img>
 
 ### Probe: An Autonomous Data Agent Currently Under Pre-MVP Implementation
 
@@ -148,7 +148,8 @@ Hierarchical structuring functions as a 'Proactive AI Governance Tool.' Its bene
 
 ## 4. Probe: The Pioneer of Autonomous Data Intelligence
 
-![2](/img/docs/blog/post/beyond-the-copilot/2.png)
+
+<img src="/img/docs/blog/post/beyond-the-copilot/2.png" alt="Beyond the Copilot" style={{maxWidth: "360px", margin: "0 auto", display: "block"}} />
 
 ### Probe's Core Philosophy: Beyond Copilots to True Autonomous Data Agents
 
